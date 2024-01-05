@@ -246,7 +246,7 @@ const win = window({
  */
 registerPlugin({
     name: "rctris",
-    version: "1.0.0",
+    version: "1.0.1",
     authors: ["Sadret"],
     type: "local",
     licence: "GPL-3.0",
@@ -359,7 +359,7 @@ function help() {
                 ],
             }),
             label({
-                text: "Copyright (c) 2024 Sadret",
+                text: "v1.0.1  -  Copyright (c) 2024 Sadret",
                 alignment: "centred",
                 disabled: true,
             }),
@@ -403,7 +403,7 @@ const bag: TetrominoType[] = [{
     secondaryColour: Colour.LightOrange,
 }, {
     letter: "O",
-    rotations: generateRotations([[1, 0], [2, 0], [1, 1], [2, 1]], 2),
+    rotations: array(4, () => [[1, 0], [2, 0], [1, 1], [2, 1]]),
     colour: Colour.Yellow,
     secondaryColour: Colour.BrightYellow,
 }, {

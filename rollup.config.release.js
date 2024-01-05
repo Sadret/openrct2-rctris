@@ -6,7 +6,7 @@ export default {
 	input: "./src/index.ts",
 	output: {
 		format: "iife",
-		file: "./build/openrct2-rctris-1.0.0.js",
+		file: "./build/openrct2-rctris-1.0.1.js",
 	},
 	plugins: [
 		resolve(),
