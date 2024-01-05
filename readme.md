@@ -2,6 +2,8 @@
 
 An OpenRCT2 plug-in inspired by the gameplay of Tetris (c).
 
+![screenshot](screenshot.png "Screenshot")
+
 ## Installation
 
 1. Make sure that your OpenRCT2 version is up-to-date. You need at least version `0.4.5` or a recent development version.
